@@ -57,3 +57,26 @@
   border: 2px solid rgba(7, 6, 65, 0.699);
   font-weight: bold;
 }
+
+.navbar {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background: lightgray;
+}
+
+.navbar__links {
+  margin-left: auto;
+}
+
+.navbar__item {
+  text-decoration: none;
+  margin-right: 8px;
+  color: rgba(22, 18, 226, 0.699);
+}
+
+.navbar__item:hover {
+  color: rgba(7, 6, 65, 0.699);
+}
