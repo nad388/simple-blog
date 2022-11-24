@@ -38,3 +38,22 @@
   transform: translateX(-350px);
   transition: all 500ms ease-in;
 }
+
+.page__wrapper {
+  margin-top: 30px;
+  display: flex;
+}
+
+.page {
+  padding: 10px;
+  margin-right: 4px;
+  border: 1px solid rgba(22, 18, 226, 0.699);
+  color: rgba(22, 18, 226, 0.699);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.page__current {
+  border: 2px solid rgba(7, 6, 65, 0.699);
+  font-weight: bold;
+}
